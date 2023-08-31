@@ -2,16 +2,19 @@ Algoritmo "semnome"
 
 Var
 // Seção de Declarações das variáveis 
-numero: inteiro
-resultado1: inteiro
-resultado2: inteiro
+numero: real
+numero2: real
+numero3: real
+resultado: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-escreval("Fale um numero de 0 a 9")
+escreval("Lucro de Janeiro")
 leia(numero)
-resultado1 <- numero-1
-resultado2 <- numero+1
-escreval("antecessor",resultado1 ," sucessor",resultado2)
-
+escreval("O de Fevereiro")
+leia(numero2)
+escreval("E o de Março")
+leia(numero3)
+resultado <- numero + numero2 + numero3 /3
+escreval("Sua média é",resultado)
 Fimalgoritmo
