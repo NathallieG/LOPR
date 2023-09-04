@@ -1,4 +1,4 @@
-Algoritmo "Temperatura"
+Algoritmo "temperatura"
 
 Var
 // Seção de Declarações das variáveis 
@@ -7,9 +7,10 @@ resultado: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-escreval("Qual da temperatura em Fahrenheit")
+escreval("Qual a tempatura em Fahrenheit?")
 leia(F)
 resultado <- (5*(F-32))/9
-escreval("O valor em Celsius é:", resultado)
+escreval(F, "º F equivalem a ", resultado, "ºC")
+
 
 Fimalgoritmo
